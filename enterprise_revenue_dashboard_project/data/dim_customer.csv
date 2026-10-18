@@ -1,0 +1,401 @@
+CustomerID,CustomerName,Segment,RegionID,SignupDate
+1,Echo Health,SMB,1,2021-08-23
+2,Lumen Finance,Enterprise,10,2023-06-17
+3,Crest Media,SMB,8,2021-05-27
+4,Echo Motors,Mid-Market,10,2022-03-15
+5,Summit Retail,Mid-Market,2,2023-02-13
+6,Titan Labs,Enterprise,7,2022-09-03
+7,Echo Systems,SMB,2,2022-11-30
+8,Cobalt Logistics,Mid-Market,3,2022-04-10
+9,Pioneer Motors,SMB,9,2023-07-24
+10,Delta Labs,Enterprise,6,2023-02-20
+11,Delta Systems,SMB,8,2021-01-20
+12,Atlas Health,Enterprise,10,2023-08-28
+13,Zenith Motors,SMB,3,2022-11-07
+14,Pioneer Motors GmbH,Mid-Market,4,2023-08-10
+15,Quanta Finance,Mid-Market,6,2022-03-25
+16,Summit Health,Enterprise,1,2022-08-26
+17,Apex Logistics,SMB,1,2021-08-23
+18,Zenith Motors Corp,Mid-Market,8,2021-08-08
+19,Fusion Labs,Mid-Market,8,2023-04-07
+20,Ember Media,Mid-Market,1,2022-11-21
+21,Nova Media,SMB,2,2021-09-12
+22,Vertex Media,Enterprise,8,2021-09-13
+23,Nova Motors,SMB,2,2023-08-07
+24,Titan Foods,Mid-Market,7,2023-07-14
+25,Lumen Finance Inc,Mid-Market,9,2022-11-09
+26,Atlas Health Group,SMB,9,2021-03-04
+27,Delta Motors,Enterprise,9,2021-03-24
+28,Summit Media,Enterprise,10,2021-09-10
+29,Titan Labs GmbH,Mid-Market,5,2021-07-29
+30,Pioneer Media,Enterprise,5,2022-04-14
+31,Zenith Systems,Mid-Market,10,2021-04-13
+32,Pioneer Retail,SMB,2,2023-06-20
+33,Aurora Motors,SMB,10,2023-04-07
+34,Orion Retail,Mid-Market,2,2023-01-31
+35,Gravity Health,SMB,4,2022-12-05
+36,Crest Finance,SMB,1,2021-04-05
+37,Nova Systems,Mid-Market,3,2022-10-15
+38,Aurora Motors Holdings,Mid-Market,1,2021-04-25
+39,Vertex Motors,Enterprise,6,2022-08-20
+40,Nova Finance,Mid-Market,1,2023-07-10
+41,Orion Energy,SMB,7,2023-09-25
+42,Summit Retail Corp,SMB,1,2021-07-03
+43,Titan Health,Mid-Market,2,2022-01-27
+44,Summit Health Inc,Mid-Market,4,2021-08-17
+45,Cobalt Finance,SMB,5,2021-12-26
+46,Echo Energy,SMB,2,2023-06-18
+47,Pioneer Systems,Enterprise,7,2021-12-20
+48,Gravity Motors,Enterprise,10,2021-07-14
+49,Apex Motors,SMB,9,2022-12-05
+50,Quanta Energy,Mid-Market,6,2022-10-01
+51,Atlas Motors,Mid-Market,7,2021-12-01
+52,Vertex Health,Mid-Market,7,2022-11-25
+53,Fusion Finance,Mid-Market,1,2021-11-08
+54,Fusion Labs Holdings,Mid-Market,8,2022-03-29
+55,Helix Logistics,Mid-Market,10,2021-12-10
+56,Summit Finance,Mid-Market,4,2021-05-31
+57,Crest Labs,SMB,2,2022-04-12
+58,Quanta Media,Mid-Market,4,2021-06-01
+59,Titan Health Corp,SMB,9,2022-04-21
+60,Orion Foods,Enterprise,8,2022-11-15
+61,Cobalt Foods,SMB,9,2022-03-13
+62,Helix Foods,Mid-Market,4,2023-05-11
+63,Delta Foods,SMB,5,2022-03-27
+64,Pioneer Energy,Mid-Market,9,2021-03-24
+65,Vertex Health Group,Mid-Market,6,2022-07-10
+66,Lumen Labs,SMB,1,2023-05-28
+67,Crest Systems,SMB,5,2023-02-11
+68,Titan Motors,SMB,9,2023-03-31
+69,Summit Finance Inc,Mid-Market,7,2021-12-11
+70,Helix Foods Corp,SMB,9,2021-01-28
+71,Apex Logistics Holdings,Mid-Market,8,2021-07-06
+72,Quanta Foods,Mid-Market,7,2021-10-12
+73,Pioneer Logistics,Mid-Market,9,2021-02-23
+74,Zenith Systems Group,SMB,4,2023-05-10
+75,Vertex Foods,SMB,10,2023-08-29
+76,Ember Retail,SMB,2,2023-03-08
+77,Orion Labs,Enterprise,5,2022-08-13
+78,Lumen Health,Enterprise,4,2021-04-15
+79,Gravity Logistics,SMB,10,2023-03-13
+80,Ember Logistics,Mid-Market,6,2021-01-13
+81,Orion Media,SMB,8,2022-12-26
+82,Delta Finance,SMB,9,2023-03-05
+83,Fusion Finance Ltd,SMB,2,2021-10-13
+84,Aurora Labs,SMB,7,2021-12-11
+85,Helix Foods Corp 85,Mid-Market,5,2021-12-15
+86,Pioneer Motors Group,Mid-Market,4,2021-03-29
+87,Echo Health Holdings,Mid-Market,8,2022-04-04
+88,Lumen Health Ltd,SMB,6,2022-04-30
+89,Echo Energy Ltd,SMB,5,2021-11-10
+90,Cobalt Logistics Holdings,Mid-Market,3,2021-07-16
+91,Fusion Motors,SMB,2,2023-05-03
+92,Helix Finance,Enterprise,9,2021-05-10
+93,Echo Finance,SMB,3,2022-10-16
+94,Apex Labs,Mid-Market,8,2022-03-28
+95,Pioneer Foods,Enterprise,2,2022-02-15
+96,Nova Retail,Enterprise,10,2023-08-30
+97,Orion Motors,SMB,10,2022-09-03
+98,Delta Media,Mid-Market,8,2021-11-01
+99,Atlas Labs,SMB,10,2023-09-11
+100,Quanta Health,Mid-Market,2,2021-06-10
+101,Helix Systems,Mid-Market,10,2022-04-27
+102,Atlas Foods,Enterprise,4,2023-08-05
+103,Fusion Health,Mid-Market,9,2021-08-19
+104,Vertex Logistics,Enterprise,5,2022-09-02
+105,Atlas Foods Group,Mid-Market,5,2022-12-18
+106,Echo Foods,Mid-Market,10,2021-02-10
+107,Gravity Finance,Enterprise,4,2023-09-12
+108,Fusion Systems,SMB,5,2022-08-14
+109,Crest Motors,SMB,5,2021-07-05
+110,Crest Logistics,Mid-Market,7,2021-12-08
+111,Cobalt Media,SMB,5,2022-11-10
+112,Echo Systems Inc,Enterprise,5,2021-11-28
+113,Delta Systems Holdings,SMB,8,2022-02-28
+114,Gravity Foods,SMB,1,2021-07-28
+115,Aurora Foods,Enterprise,10,2023-03-30
+116,Echo Systems GmbH,Mid-Market,4,2023-05-12
+117,Orion Retail Inc,SMB,5,2022-06-06
+118,Crest Foods,Mid-Market,9,2021-05-29
+119,Delta Retail,SMB,5,2023-03-03
+120,Delta Finance Group,Mid-Market,5,2023-05-08
+121,Crest Retail,Mid-Market,8,2021-12-20
+122,Lumen Foods,SMB,4,2022-12-16
+123,Titan Systems,Mid-Market,8,2022-12-24
+124,Vertex Foods Group,Enterprise,10,2021-12-06
+125,Aurora Logistics,Mid-Market,8,2021-01-16
+126,Vertex Logistics Inc,SMB,5,2021-12-13
+127,Zenith Energy,SMB,9,2022-01-25
+128,Crest Motors Group,SMB,4,2022-10-09
+129,Summit Logistics,Mid-Market,2,2023-02-18
+130,Aurora Retail,SMB,1,2021-02-17
+131,Ember Media Corp,Mid-Market,7,2022-08-03
+132,Helix Logistics GmbH,SMB,10,2022-12-01
+133,Vertex Health Inc,SMB,8,2021-09-19
+134,Aurora Finance,SMB,3,2021-03-17
+135,Fusion Finance Holdings,SMB,5,2022-04-13
+136,Lumen Foods Group,Mid-Market,10,2022-01-03
+137,Atlas Systems,SMB,7,2021-10-09
+138,Nova Labs,SMB,5,2023-03-06
+139,Ember Health,SMB,10,2021-09-14
+140,Vertex Logistics Holdings,SMB,5,2023-03-19
+141,Vertex Logistics Ltd,Mid-Market,7,2021-06-29
+142,Ember Motors,Mid-Market,5,2023-05-01
+143,Crest Finance Holdings,SMB,2,2022-04-25
+144,Lumen Motors,Mid-Market,7,2021-01-15
+145,Pioneer Labs,Mid-Market,6,2021-04-21
+146,Gravity Motors Ltd,SMB,4,2022-10-26
+147,Atlas Media,Enterprise,1,2023-08-27
+148,Orion Logistics,Mid-Market,9,2021-05-19
+149,Echo Media,SMB,3,2023-06-26
+150,Gravity Media,SMB,5,2021-02-03
+151,Aurora Health,SMB,2,2022-12-04
+152,Ember Systems,Mid-Market,4,2023-09-19
+153,Aurora Logistics Holdings,Mid-Market,10,2023-09-22
+154,Summit Retail GmbH,Mid-Market,9,2021-08-01
+155,Summit Energy,SMB,10,2021-01-03
+156,Vertex Motors Ltd,SMB,2,2022-11-08
+157,Summit Labs,Mid-Market,3,2021-09-29
+158,Delta Logistics,SMB,8,2022-04-05
+159,Orion Foods GmbH,Mid-Market,10,2021-02-14
+160,Delta Finance Inc,SMB,1,2021-03-04
+161,Titan Logistics,Mid-Market,8,2021-03-17
+162,Vertex Logistics Corp,Mid-Market,10,2022-07-16
+163,Gravity Motors Ltd 163,Mid-Market,10,2022-03-17
+164,Echo Health Inc,Mid-Market,4,2022-02-28
+165,Titan Logistics Ltd,Mid-Market,5,2022-01-19
+166,Crest Logistics Group,SMB,2,2022-03-19
+167,Vertex Motors Group,SMB,9,2022-07-30
+168,Titan Systems Ltd,SMB,6,2021-04-17
+169,Crest Health,SMB,6,2023-05-16
+170,Fusion Health Inc,SMB,10,2022-09-21
+171,Gravity Finance Group,Enterprise,5,2023-08-02
+172,Fusion Media,Enterprise,1,2021-04-04
+173,Titan Foods Ltd,Enterprise,5,2023-01-09
+174,Gravity Logistics Group,Enterprise,10,2021-02-20
+175,Titan Foods GmbH,Mid-Market,5,2021-08-09
+176,Orion Finance,SMB,10,2022-05-14
+177,Summit Media GmbH,Enterprise,4,2021-11-05
+178,Pioneer Finance,Mid-Market,1,2022-05-25
+179,Lumen Motors Holdings,Mid-Market,9,2023-05-04
+180,Lumen Systems,Mid-Market,8,2023-08-02
+181,Titan Labs Inc,SMB,7,2021-10-24
+182,Helix Labs,Mid-Market,6,2021-04-01
+183,Fusion Media GmbH,Enterprise,5,2023-02-03
+184,Helix Logistics GmbH 184,SMB,9,2022-06-07
+185,Ember Retail Corp,Enterprise,5,2021-07-22
+186,Zenith Retail,SMB,8,2022-04-21
+187,Aurora Labs Holdings,SMB,10,2021-11-27
+188,Vertex Foods Group 188,Mid-Market,5,2023-03-27
+189,Zenith Finance,Mid-Market,1,2021-02-28
+190,Zenith Labs,SMB,7,2022-04-19
+191,Nova Foods,SMB,10,2022-10-30
+192,Delta Retail Group,Mid-Market,6,2023-01-02
+193,Nova Health,SMB,8,2022-06-21
+194,Ember Finance,Mid-Market,6,2022-11-27
+195,Cobalt Logistics Ltd,Enterprise,7,2021-10-18
+196,Gravity Retail,Mid-Market,10,2022-11-11
+197,Lumen Retail,SMB,2,2021-11-14
+198,Cobalt Retail,SMB,9,2021-04-06
+199,Ember Systems Ltd,Mid-Market,4,2021-12-16
+200,Summit Retail Corp 200,Enterprise,2,2022-06-04
+201,Delta Systems Holdings 201,Mid-Market,10,2021-05-15
+202,Helix Labs Corp,SMB,1,2022-02-25
+203,Aurora Labs Ltd,SMB,8,2021-08-28
+204,Crest Health Ltd,SMB,10,2022-03-28
+205,Lumen Motors GmbH,Mid-Market,3,2023-04-17
+206,Pioneer Systems Holdings,Mid-Market,6,2022-07-22
+207,Delta Logistics Ltd,Enterprise,3,2021-10-07
+208,Titan Logistics Corp,SMB,6,2023-08-11
+209,Ember Health Inc,SMB,6,2021-08-18
+210,Cobalt Retail Corp,Enterprise,8,2022-12-14
+211,Crest Foods GmbH,Enterprise,2,2021-01-20
+212,Echo Labs,Mid-Market,2,2023-03-06
+213,Nova Health Inc,SMB,10,2022-04-14
+214,Crest Labs GmbH,Enterprise,9,2022-08-12
+215,Apex Labs Ltd,Mid-Market,7,2021-07-11
+216,Zenith Motors GmbH,Mid-Market,9,2022-07-22
+217,Nova Media Ltd,Mid-Market,1,2022-01-01
+218,Orion Labs Holdings,SMB,3,2021-02-15
+219,Helix Foods Holdings,Mid-Market,3,2023-04-11
+220,Aurora Systems,Mid-Market,1,2023-03-22
+221,Delta Media GmbH,Mid-Market,1,2023-02-11
+222,Nova Energy,Mid-Market,6,2022-03-24
+223,Lumen Energy,SMB,8,2022-12-10
+224,Delta Finance Group 224,SMB,2,2022-03-17
+225,Echo Finance Ltd,Enterprise,6,2022-11-08
+226,Titan Retail,SMB,6,2022-04-03
+227,Ember Labs,SMB,5,2022-10-17
+228,Zenith Media,Mid-Market,3,2023-09-03
+229,Aurora Systems Corp,Enterprise,6,2022-01-06
+230,Gravity Retail Holdings,Mid-Market,6,2022-01-16
+231,Delta Energy,Mid-Market,5,2021-09-13
+232,Crest Motors Inc,SMB,2,2021-09-26
+233,Quanta Labs,Mid-Market,8,2021-07-24
+234,Aurora Retail Holdings,Mid-Market,2,2023-04-10
+235,Cobalt Energy,SMB,9,2022-07-10
+236,Helix Retail,SMB,9,2021-08-18
+237,Vertex Health Inc 237,Enterprise,9,2022-08-10
+238,Echo Retail,SMB,2,2021-03-09
+239,Crest Motors Inc 239,SMB,10,2021-03-17
+240,Zenith Foods,Mid-Market,9,2021-12-19
+241,Echo Labs Corp,SMB,3,2022-03-20
+242,Orion Motors Corp,Mid-Market,3,2021-11-27
+243,Delta Finance Group 243,Mid-Market,9,2021-10-09
+244,Echo Logistics,Mid-Market,3,2022-08-30
+245,Gravity Labs,Mid-Market,10,2021-02-12
+246,Fusion Finance Holdings 246,Mid-Market,10,2022-03-03
+247,Atlas Foods Corp,SMB,7,2021-11-01
+248,Helix Foods Inc,Mid-Market,4,2021-12-15
+249,Cobalt Energy Inc,Enterprise,6,2022-06-12
+250,Aurora Logistics Ltd,Mid-Market,3,2021-04-10
+251,Gravity Media Corp,SMB,3,2023-04-14
+252,Cobalt Health,SMB,8,2022-06-12
+253,Crest Systems Group,SMB,9,2022-04-14
+254,Ember Systems Group,Mid-Market,10,2023-06-23
+255,Atlas Motors Group,SMB,7,2021-05-18
+256,Lumen Energy Group,Mid-Market,10,2022-07-30
+257,Zenith Media GmbH,Mid-Market,9,2021-10-14
+258,Gravity Logistics Corp,SMB,7,2022-01-18
+259,Ember Retail Corp 259,SMB,7,2022-05-28
+260,Crest Motors Inc 260,Enterprise,9,2021-05-24
+261,Helix Media,SMB,5,2022-08-31
+262,Echo Foods Holdings,SMB,8,2023-04-16
+263,Orion Media GmbH,Mid-Market,1,2022-09-04
+264,Fusion Labs Corp,SMB,10,2022-05-07
+265,Gravity Media Corp 265,SMB,4,2021-02-02
+266,Quanta Systems,Mid-Market,7,2021-06-05
+267,Delta Labs Inc,SMB,1,2022-12-24
+268,Cobalt Foods GmbH,Mid-Market,3,2022-04-16
+269,Ember Finance GmbH,Mid-Market,4,2021-10-13
+270,Atlas Finance,SMB,8,2021-11-21
+271,Pioneer Finance Group,SMB,9,2022-01-24
+272,Ember Retail Ltd,Enterprise,2,2021-12-21
+273,Crest Health Corp,SMB,5,2023-08-14
+274,Orion Labs Holdings 274,SMB,4,2021-02-21
+275,Summit Systems,Enterprise,6,2023-01-05
+276,Vertex Systems,SMB,3,2022-02-21
+277,Crest Foods Holdings,Enterprise,5,2021-11-25
+278,Fusion Health GmbH,SMB,1,2023-07-25
+279,Helix Systems Inc,SMB,3,2023-08-18
+280,Atlas Systems Group,Mid-Market,10,2021-04-20
+281,Aurora Motors GmbH,Mid-Market,3,2023-05-22
+282,Orion Energy Corp,SMB,5,2023-01-06
+283,Atlas Labs Holdings,SMB,3,2022-09-18
+284,Titan Motors Ltd,Enterprise,2,2021-07-09
+285,Summit Systems Ltd,Mid-Market,8,2023-02-11
+286,Fusion Labs Group,Mid-Market,6,2022-12-11
+287,Aurora Finance Corp,Mid-Market,9,2023-08-04
+288,Atlas Logistics,SMB,5,2022-01-12
+289,Vertex Foods Corp,Mid-Market,10,2022-01-18
+290,Crest Motors Holdings,SMB,4,2022-11-28
+291,Zenith Motors Inc,Mid-Market,6,2021-03-21
+292,Quanta Labs GmbH,Enterprise,6,2023-05-25
+293,Fusion Foods,Enterprise,9,2022-04-02
+294,Delta Media Inc,SMB,9,2022-04-19
+295,Apex Media,Mid-Market,1,2023-02-03
+296,Ember Logistics GmbH,SMB,2,2023-08-15
+297,Helix Retail Holdings,SMB,7,2022-01-19
+298,Lumen Media,Enterprise,9,2021-05-17
+299,Helix Motors,Mid-Market,3,2023-01-16
+300,Apex Finance,Mid-Market,9,2022-03-11
+301,Summit Foods,Mid-Market,5,2021-07-13
+302,Orion Systems,SMB,7,2022-09-22
+303,Apex Health,Mid-Market,2,2022-09-01
+304,Nova Health Holdings,Enterprise,8,2021-08-28
+305,Nova Retail GmbH,SMB,4,2023-04-16
+306,Fusion Labs Holdings 306,SMB,4,2021-11-06
+307,Delta Health,Mid-Market,5,2021-03-04
+308,Helix Media GmbH,Mid-Market,6,2023-08-23
+309,Delta Energy Holdings,Mid-Market,3,2021-11-04
+310,Crest Health Corp 310,Mid-Market,3,2023-04-06
+311,Titan Motors GmbH,Enterprise,4,2021-09-19
+312,Aurora Energy,Enterprise,4,2021-02-22
+313,Gravity Systems,SMB,4,2023-04-04
+314,Echo Health Inc 314,Mid-Market,6,2021-11-07
+315,Orion Foods Corp,SMB,4,2022-02-11
+316,Atlas Media Inc,Mid-Market,6,2021-11-12
+317,Crest Foods Group,SMB,8,2023-02-19
+318,Ember Energy,Mid-Market,10,2023-06-04
+319,Echo Labs GmbH,SMB,5,2021-06-06
+320,Fusion Health Inc 320,SMB,6,2021-09-21
+321,Crest Foods Corp,SMB,6,2021-06-23
+322,Helix Motors Holdings,SMB,9,2021-02-04
+323,Apex Media Corp,SMB,4,2021-03-11
+324,Aurora Energy Group,SMB,10,2023-07-24
+325,Apex Motors GmbH,Mid-Market,1,2022-06-27
+326,Atlas Systems GmbH,SMB,7,2023-04-06
+327,Orion Motors Corp 327,Mid-Market,10,2022-06-24
+328,Lumen Logistics,Mid-Market,7,2022-04-16
+329,Summit Finance Holdings,SMB,2,2022-11-01
+330,Nova Logistics,Mid-Market,7,2022-07-20
+331,Helix Logistics Inc,SMB,6,2022-08-03
+332,Delta Systems Corp,Mid-Market,10,2022-05-02
+333,Pioneer Motors GmbH 333,SMB,3,2023-08-10
+334,Fusion Retail,SMB,7,2023-08-10
+335,Summit Labs Inc,SMB,9,2021-12-06
+336,Zenith Motors Holdings,SMB,1,2021-04-11
+337,Cobalt Labs,SMB,10,2022-02-11
+338,Pioneer Foods Inc,Mid-Market,9,2023-08-22
+339,Fusion Media Group,SMB,5,2023-03-29
+340,Vertex Media Holdings,SMB,3,2023-01-28
+341,Zenith Systems Ltd,Mid-Market,5,2021-04-15
+342,Aurora Motors GmbH 342,Mid-Market,2,2021-01-27
+343,Gravity Labs Ltd,SMB,1,2021-10-26
+344,Echo Health GmbH,Mid-Market,7,2021-06-23
+345,Crest Retail Group,Enterprise,5,2022-03-08
+346,Ember Finance Corp,SMB,8,2022-09-01
+347,Vertex Finance,Enterprise,7,2021-12-07
+348,Cobalt Foods Ltd,Mid-Market,10,2021-05-20
+349,Quanta Foods Ltd,Enterprise,7,2023-09-19
+350,Crest Labs Corp,Mid-Market,5,2023-04-17
+351,Fusion Health GmbH 351,SMB,3,2022-11-30
+352,Quanta Foods Ltd 352,SMB,2,2023-04-19
+353,Crest Retail Holdings,Mid-Market,5,2022-11-06
+354,Lumen Logistics Inc,SMB,8,2022-08-20
+355,Titan Motors Group,SMB,6,2022-12-20
+356,Zenith Logistics,SMB,6,2021-06-20
+357,Cobalt Media Group,Enterprise,5,2021-08-16
+358,Fusion Labs Corp 358,Mid-Market,7,2022-04-20
+359,Delta Retail Ltd,SMB,8,2021-04-18
+360,Zenith Logistics Holdings,Enterprise,5,2021-12-18
+361,Crest Energy,Mid-Market,8,2023-01-10
+362,Atlas Systems Holdings,Enterprise,6,2022-10-26
+363,Summit Motors,Enterprise,3,2021-12-05
+364,Summit Media Holdings,Enterprise,7,2022-02-10
+365,Quanta Foods GmbH,Mid-Market,1,2022-12-23
+366,Zenith Labs Group,SMB,9,2021-07-11
+367,Orion Finance Holdings,SMB,9,2023-09-17
+368,Gravity Media GmbH,Enterprise,6,2023-05-16
+369,Atlas Labs GmbH,Enterprise,3,2021-11-17
+370,Helix Energy,SMB,9,2022-02-02
+371,Titan Retail Inc,SMB,3,2022-07-23
+372,Helix Energy Inc,SMB,6,2023-09-02
+373,Echo Motors Holdings,Mid-Market,8,2022-03-02
+374,Helix Logistics GmbH 374,Enterprise,4,2021-10-27
+375,Atlas Retail,SMB,10,2023-01-31
+376,Delta Logistics GmbH,Enterprise,9,2023-04-24
+377,Nova Foods GmbH,Mid-Market,7,2021-04-15
+378,Summit Finance Group,Mid-Market,6,2023-06-02
+379,Orion Health,Mid-Market,10,2022-12-07
+380,Titan Retail GmbH,Enterprise,4,2023-04-14
+381,Echo Finance GmbH,Mid-Market,6,2022-12-22
+382,Delta Logistics Corp,SMB,7,2023-07-30
+383,Vertex Retail,Mid-Market,6,2023-04-29
+384,Lumen Foods Corp,SMB,5,2022-10-05
+385,Zenith Media GmbH 385,SMB,6,2022-04-11
+386,Apex Logistics Holdings 386,SMB,6,2023-05-21
+387,Quanta Media Corp,Mid-Market,6,2023-04-29
+388,Vertex Labs,SMB,6,2023-07-05
+389,Aurora Systems Group,SMB,3,2022-03-28
+390,Titan Health Holdings,SMB,5,2021-06-12
+391,Zenith Energy Ltd,Enterprise,3,2021-02-23
+392,Summit Media Holdings 392,Enterprise,2,2021-01-02
+393,Delta Foods Group,Enterprise,6,2023-04-17
+394,Vertex Foods Group 394,Mid-Market,2,2023-01-19
+395,Atlas Retail Inc,SMB,3,2022-10-19
+396,Fusion Systems GmbH,SMB,8,2021-12-26
+397,Vertex Media GmbH,SMB,4,2021-03-30
+398,Fusion Media Ltd,SMB,6,2023-03-22
+399,Zenith Health,SMB,10,2023-01-09
+400,Apex Finance Corp,Mid-Market,9,2021-07-13

@@ -1,0 +1,11 @@
+RegionID,Region,Country,Territory
+1,North America,United States,Americas
+2,North America,Canada,Americas
+3,Latin America,Brazil,Americas
+4,Europe,Germany,EMEA
+5,Europe,United Kingdom,EMEA
+6,Europe,France,EMEA
+7,Middle East & Africa,UAE,EMEA
+8,Asia Pacific,India,APAC
+9,Asia Pacific,Japan,APAC
+10,Asia Pacific,Australia,APAC

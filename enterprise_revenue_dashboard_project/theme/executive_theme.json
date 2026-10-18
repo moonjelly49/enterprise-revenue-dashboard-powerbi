@@ -1,0 +1,11 @@
+{
+  "name": "Executive Revenue Theme",
+  "dataColors": ["#1F4E79","#2E86AB","#F18F01","#C73E1D","#6B8E23","#7A7A7A","#9B5DE5","#00A6A6"],
+  "background": "#FFFFFF", "foreground": "#1B1B1B", "tableAccent": "#1F4E79",
+  "good": "#2E7D32", "neutral": "#F9A825", "bad": "#C62828",
+  "textClasses": {
+    "title": {"fontFace": "Segoe UI Semibold", "fontSize": 14, "color": "#1B1B1B"},
+    "label": {"fontFace": "Segoe UI", "fontSize": 10, "color": "#444444"},
+    "callout": {"fontFace": "Segoe UI Semibold", "fontSize": 26, "color": "#1F4E79"}
+  }
+}

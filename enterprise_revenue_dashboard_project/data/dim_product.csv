@@ -1,0 +1,31 @@
+ProductID,ProductName,Category,ListPrice,CostRatio
+1,Laptops Item 1,Laptops,1377.12,0.652
+2,Laptops Item 2,Laptops,1071.02,0.68
+3,Laptops Item 3,Laptops,1458.64,0.745
+4,Laptops Item 4,Laptops,1589.43,0.661
+5,Laptops Item 5,Laptops,1194.41,0.652
+6,Monitors Item 1,Monitors,298.57,0.681
+7,Monitors Item 2,Monitors,251.5,0.639
+8,Monitors Item 3,Monitors,404.22,0.686
+9,Monitors Item 4,Monitors,299.01,0.692
+10,Monitors Item 5,Monitors,443.31,0.613
+11,Networking Item 1,Networking,278.1,0.624
+12,Networking Item 2,Networking,206.4,0.559
+13,Networking Item 3,Networking,301.41,0.58
+14,Networking Item 4,Networking,168.28,0.552
+15,Networking Item 5,Networking,284.51,0.612
+16,Software Licences Item 1,Software Licences,632.49,0.261
+17,Software Licences Item 2,Software Licences,537.68,0.274
+18,Software Licences Item 3,Software Licences,482.49,0.253
+19,Software Licences Item 4,Software Licences,640.29,0.256
+20,Software Licences Item 5,Software Licences,651.6,0.254
+21,Accessories Item 1,Accessories,71.59,0.5
+22,Accessories Item 2,Accessories,51.57,0.527
+23,Accessories Item 3,Accessories,45.35,0.521
+24,Accessories Item 4,Accessories,46.24,0.526
+25,Accessories Item 5,Accessories,68.7,0.535
+26,Support Services Item 1,Support Services,287.74,0.33
+27,Support Services Item 2,Support Services,266.07,0.381
+28,Support Services Item 3,Support Services,346.09,0.358
+29,Support Services Item 4,Support Services,245.94,0.366
+30,Support Services Item 5,Support Services,244.31,0.342

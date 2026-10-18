@@ -1,0 +1,101 @@
+//==============================================================
+// 00  DATE TABLE (Modeling > New table)
+//==============================================================
+dim_date =
+VAR _min = DATE(YEAR(MIN(fact_sales[OrderDate])),1,1)
+VAR _max = DATE(YEAR(MAX(fact_sales[OrderDate])),12,31)
+RETURN
+ADDCOLUMNS(
+    CALENDAR(_min,_max),
+    "Year", YEAR([Date]),
+    "Quarter", "Q" & QUARTER([Date]),
+    "MonthNo", MONTH([Date]),
+    "Month", FORMAT([Date],"MMM"),
+    "YearMonth", FORMAT([Date],"YYYY-MM"),
+    "MonthStart", DATE(YEAR([Date]),MONTH([Date]),1)
+)
+// Then: Table tools > Mark as date table (column [Date]); sort Month by MonthNo.
+
+//==============================================================
+// 01  CORE MEASURES  (create a blank table "_Measures" to hold them)
+//==============================================================
+Total Revenue = SUM(fact_sales[NetRevenue])
+Total COGS = SUM(fact_sales[COGS])
+Gross Profit = [Total Revenue] - [Total COGS]
+Gross Profit Margin % = DIVIDE([Gross Profit],[Total Revenue])
+Orders = DISTINCTCOUNT(fact_sales[OrderID])
+Active Customers = DISTINCTCOUNT(fact_sales[CustomerID])
+Avg Order Value = DIVIDE([Total Revenue],[Orders])
+Avg Discount % =
+    DIVIDE(SUMX(fact_sales, fact_sales[DiscountPct]*fact_sales[NetRevenue]), [Total Revenue])
+
+//==============================================================
+// 02  TIME INTELLIGENCE - YoY
+//==============================================================
+Revenue PY = CALCULATE([Total Revenue], SAMEPERIODLASTYEAR(dim_date[Date]))
+Revenue YoY Growth % = DIVIDE([Total Revenue]-[Revenue PY],[Revenue PY])
+Gross Profit PY = CALCULATE([Gross Profit], SAMEPERIODLASTYEAR(dim_date[Date]))
+GP YoY Growth % = DIVIDE([Gross Profit]-[Gross Profit PY],[Gross Profit PY])
+Margin PY % = CALCULATE([Gross Profit Margin %], SAMEPERIODLASTYEAR(dim_date[Date]))
+Margin Change (pp) = ([Gross Profit Margin %]-[Margin PY %])*100
+Revenue YTD = TOTALYTD([Total Revenue], dim_date[Date])
+Revenue YTD PY = CALCULATE([Revenue YTD], SAMEPERIODLASTYEAR(dim_date[Date]))
+Revenue Rolling 3M =
+CALCULATE([Total Revenue], DATESINPERIOD(dim_date[Date], MAX(dim_date[Date]), -3, MONTH))
+
+//==============================================================
+// 03  TARGET VARIANCE
+//==============================================================
+Revenue Target = SUM(fact_target[RevenueTarget])
+Variance to Target = [Total Revenue] - [Revenue Target]
+Variance % = DIVIDE([Variance to Target],[Revenue Target])
+Target Attainment % = DIVIDE([Total Revenue],[Revenue Target])
+Target Status =
+SWITCH(TRUE(),
+    [Target Attainment %] >= 1,    "On / Above Target",
+    [Target Attainment %] >= 0.95, "Slightly Below",
+    "Off Target")
+Target Status Color =
+SWITCH([Target Status],"On / Above Target","#2E7D32","Slightly Below","#F9A825","#C62828")
+
+//==============================================================
+// 04  LOW-MARGIN ACCOUNT DETECTION
+//==============================================================
+Margin Threshold % = 0.30        // or create a What-If parameter
+Low Margin Flag =
+IF([Gross Profit Margin %] < [Margin Threshold %] && [Total Revenue] > 0, 1, 0)
+Low Margin Customers =
+CALCULATE(DISTINCTCOUNT(dim_customer[CustomerID]),
+          FILTER(VALUES(dim_customer[CustomerID]), [Low Margin Flag]=1))
+Revenue at Low Margin = SUMX(VALUES(dim_customer[CustomerID]), IF([Low Margin Flag]=1,[Total Revenue],0))
+Margin Leakage from Discounts =
+SUMX(fact_sales, fact_sales[Quantity]*fact_sales[UnitPrice] - fact_sales[NetRevenue])
+
+//==============================================================
+// 05  CHANNEL PERFORMANCE
+//==============================================================
+Revenue Share % = DIVIDE([Total Revenue], CALCULATE([Total Revenue], ALL(dim_channel)))
+Channel Rank = RANKX(ALL(dim_channel[Channel]), [Total Revenue],, DESC)
+
+//==============================================================
+// 06  CHURN RISK
+//==============================================================
+Anchor Date = MAX(fact_sales[OrderDate])         // "today" = latest data point
+Last Purchase Date = CALCULATE(MAX(fact_sales[OrderDate]), ALL(dim_date))
+Days Since Last Purchase = DATEDIFF([Last Purchase Date], CALCULATE([Anchor Date], ALL(dim_date)), DAY)
+Churn Risk Tier =
+SWITCH(TRUE(),
+    [Days Since Last Purchase] > 180, "Churned",
+    [Days Since Last Purchase] > 90,  "High Risk",
+    [Days Since Last Purchase] > 45,  "Watch",
+    "Healthy")
+At-Risk Customers =
+CALCULATE(DISTINCTCOUNT(dim_customer[CustomerID]),
+    FILTER(VALUES(dim_customer[CustomerID]),
+        [Days Since Last Purchase] > 90))
+Revenue at Risk (Trailing 12M) =
+VAR _cut = EDATE(CALCULATE([Anchor Date], ALL(dim_date)), -12)
+RETURN SUMX(
+    FILTER(VALUES(dim_customer[CustomerID]), [Days Since Last Purchase] > 90),
+    CALCULATE([Total Revenue], dim_date[Date] > _cut))
+Churn Rate % = DIVIDE([At-Risk Customers], CALCULATE(DISTINCTCOUNT(fact_sales[CustomerID]), ALL(dim_date)))
